@@ -1,0 +1,23 @@
+
+
+
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+h1{
+    color: whitesmoke;
+    background-color:rgb(51, 131, 201);
+}
+h2{
+    color: whitesmoke;
+}
+p{
+    text-align: justify;
+    color: whitesmoke;
+}
+a{
+    color: rgb(51, 131, 201);
+    font-size:medium;
+}

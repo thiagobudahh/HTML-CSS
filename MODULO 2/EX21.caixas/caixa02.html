@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tag</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav{
+            background-color: rgba(0, 0, 0, 0.589);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.459);
+            border-radius: 5px;
+
+        }
+
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+            border-radius: 10px 25px;
+
+        }
+        article > aside {
+            background-color: rgb(165, 164, 164);
+            border-radius: 3px;
+
+        }
+
+        footer{
+            background-color: black;
+            
+            color: whitesmoke;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 200px;
+            width: 200px;
+            margin: 20px;
+            background-color: whitesmoke;
+            border-radius: 50%;
+            margin: auto;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Buda</a>
+            <a href="#">Buda</a>
+            <a href="#">Buda</a>
+            <a href="#">Buda</a>
+            <a href="#">Buda</a>
+            <a href="#">Buda</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <p>Sobre voce e sobre mim</p>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre Buda</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat ducimus quo possimus, voluptatem dolorum a placeat velit magnam rerum magni fuga non odit commodi asperiores voluptatibus dignissimos illum ad est!</p>
+                <aside>
+                    <p>escrito por thiago Buda</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Buda</p>
+    </footer>
+    
+    <div id="bola"></div>
+    
+    
+</body>
+</html>
